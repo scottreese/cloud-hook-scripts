@@ -58,7 +58,7 @@ update_db() {
 #
 # Clears all Drupal caches.
 #
-# @TODO Improve this function to run updates for each site in a multisite setup.
+# @TODO Improve this function to clear caches for each site in a multisite setup.
 #
 clear_caches() {
   site="$1"
